@@ -32,12 +32,8 @@ jobs:
       - name: GitHub Actions
       - uses: Borales/actions-yarn@v2.1.0 
         with:
-          cmd: install
-<<<<<<< HEAD
-
-=======
-        
->>>>>>> cdd39f24ccc2bf7d3483880f53e1381d91d2960e
+          cmd: Installing
+          
       - name: Creating Build
       - run : yarn build 
 
