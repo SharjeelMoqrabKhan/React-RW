@@ -13,6 +13,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Sharjeel Moqrab khan
+          FullStack Dev
         </a>
       </header>
     </div>
