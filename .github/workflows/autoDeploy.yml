@@ -29,12 +29,13 @@ jobs:
       - name: Installing npm
         uses: actions/setup-node@v2.1.2
         with:
-          node-version: 12
+          version: 12
        
       - name: GitHub Actions
       - uses : Borales/actions-yarn@v2.1.0 
         with:
           cmd: install
+        
       - name: Creating Build
       - run : yarn build 
 
